@@ -75,11 +75,12 @@ export class TestdesignComponent implements OnInit {
         headerContent: 'Description'
       }
     ],
-    dateClick: this.handleDateClick.bind(this) // bind is important!
+    eventClick: this.handleEventClick.bind(this)
   };
 
-  handleDateClick(arg) {
-    alert('date click! ' + arg.dateStr)
+  handleEventClick(arg) {
+    console.log(arg);
+    alert('test step clicked')
   }
 
   constructor() { }
