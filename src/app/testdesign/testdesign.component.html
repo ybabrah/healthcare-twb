@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row top-section">
+        <div class="col">
+            <div class="heading">Test Design</div>
+        </div>
+        <div class="col">
+            <dds-button [theme]="options.theme" [kind]="options.kind" [size]="options.size" [width]="options.width" [icon]="options.icon" [isLoading]="options.isLoading" [isDisabled]="options.isDisabled">{{label}}</dds-button>
+            <dds-search [value]="searchValue" [placeholder]="searchOptions.placeholder" [isDisabled]="searchOptions.isDisabled" (valueChanged)="changeValue($event)"></dds-search>
+        </div>
+    </div>
+
+    <div class="row main-section">
+        <div class="col">
+            <div class="content">
+                <full-calendar [options]="calendarOptions"></full-calendar>
+            </div>
+        </div>
+    </div>
+</div>

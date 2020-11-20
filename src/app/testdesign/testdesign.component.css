@@ -1,0 +1,72 @@
+.top-section {
+    padding-top: 25px;
+}
+
+::ng-deep .dds-search {
+    max-width: 300px !important;
+    margin-right: 10px;
+    float: right;
+}
+
+::ng-deep .dds-search .dds-search__input {
+    height: 40px;
+}
+
+::ng-deep .dds-search .dds-search__icon {
+    top: 10px;
+}
+
+dds-button {
+    float: right;
+}
+
+::ng-deep a.fc-timeline-slot-cushion {
+    margin: auto;
+    color: black !important;
+}
+
+::ng-deep a.fc-timeline-slot-cushion:hover {
+    text-decoration: none !important;
+}
+
+::ng-deep .fc-datagrid-cell-main {
+    white-space: normal !important;
+}
+
+::ng-deep .fc-license-message {
+    display: none !important;
+}
+
+::ng-deep .fc-event-title-container {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+::ng-deep .fc-event-title {
+    white-space: normal !important;
+}
+
+::ng-deep .fc-timeline-event {
+    background: #2097D3 !important;
+}
+
+::ng-deep .fc-theme-standard td {
+    border: 0 0 1px 0 #ddd !important;
+}
+
+::ng-deep .fc-timeline-lane,
+ ::ng-deep td.fc-datagrid-cell {
+    padding: 10px 0 !important;
+}
+
+::ng-deep .fc-timeline-event-harness,
+ ::ng-deep .fc-timeline-event {
+    min-height: 70px !important;
+}
+
+
+/* ::ng-deep .fc-timeline-event-harness,
+ ::ng-deep .fc-timeline-event {
+    height: 100%;
+} */

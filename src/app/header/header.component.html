@@ -1,0 +1,26 @@
+<dds-header [name]="headerOptions.name" [theme]="headerOptions.theme" [width]="headerOptions.width">
+
+    <div navigation class="dds-header-nav">
+        <dds-button *ngFor="let header of navigation; let i = index;" (click)="navigate($event, i)" [theme]="header.theme" kind="primaryLoud " size="lg " class="dds-header-nav__item ">
+            {{ header.name }}
+        </dds-button>
+    </div>
+
+    <div search>
+        <dds-select [description]="selectOptions.description " [errorMessage]="selectOptions.errorMessage " [isDisabled]="selectOptions.isDisabled " [isError]="selectOptions.isError " [label]="selectOptions.label " [labelPosition]="selectOptions.labelPosition
+            " [placeholder]="selectOptions.placeholder " [size]="selectOptions.size " [value]="selectedItem ">
+            <dds-select-item *ngFor="let item of selectItems " [heading]="item.heading " [value]="item.value "></dds-select-item>
+        </dds-select>
+    </div>
+
+    <div profile>
+        <dds-profile [username]="profileOptions.username " [nameLetter]="profileOptions.nameLetter " [userInfo]="profileOptions.userInfo ">
+            <dds-profile-item>
+                Profile settings
+            </dds-profile-item>
+            <dds-profile-item>
+                Log out
+            </dds-profile-item>
+        </dds-profile>
+    </div>
+</dds-header>

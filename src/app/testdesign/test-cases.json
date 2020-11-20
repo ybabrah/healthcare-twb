@@ -1,0 +1,10 @@
+[{
+    "id": "IP 001",
+    "test_desc": "This test simulates a 4 day length of stay on a 40 year old male"
+}, {
+    "id": "OP 001",
+    "test_desc": "This test simulates an outpatient visit by 32 year old femail patient"
+}, {
+    "id": "ED 001",
+    "test_desc": "This test simulates a 5 day length of stay on a 40 year old patient"
+}]

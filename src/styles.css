@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@usitsdasdesign/dds-ng/styles/main.css';
+html,
+body {
+    height: 100% !important;
+    background: #F1F2F3 !important;
+}
+
+body {
+    margin: 0px !important;
+}
+
+.container-fluid {
+    max-width: 1800px !important;
+}
+
+.heading {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.main-section .content {
+    background: white;
+    padding: 30px;
+}
